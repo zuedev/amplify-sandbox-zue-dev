@@ -1,0 +1,17 @@
+# asdhkjash21837198372
+version: 1
+frontend:
+  phases:
+    # IMPORTANT - Please verify your build commands
+    build:
+      commands:
+        - npm install
+        - npm run build
+  artifacts:
+    # IMPORTANT - Please verify your build output directory
+    baseDirectory: /
+    files:
+      - "**/*"
+  cache:
+    paths:
+      - "node_modules/**/*"
